@@ -1,0 +1,37 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.DesignerToolNav {
+  display: flex;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  
+  li {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 25px;
+    margin-right: 10px;    
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 400;
+    padding: 0 3px 5px;
+    transition: border 0.5s;
+    
+    &.selected {
+      border-bottom: 2px solid transparentize($primary, 0.4);
+    }
+  }
+
+
+  // Desktop Styles 
+  @include desktop() {
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    
+    li {
+      @include button-desktop();
+      transition: border 0.1s;
+    }
+  }
+}

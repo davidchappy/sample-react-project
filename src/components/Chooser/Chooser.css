@@ -1,0 +1,53 @@
+.Chooser {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; }
+  .Chooser .holder {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 0;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%; }
+  .Chooser .animate {
+    transition: transform 0.3s ease-out; }
+  @media only screen and (min-width: 768px) {
+    .Chooser {
+      display: flex;
+      justify-content: center;
+      max-width: 1200px;
+      width: 80%;
+      height: 100%;
+      margin: 0 auto;
+      position: relative;
+      padding-top: 25%; }
+      .Chooser.SliderWrapper .holder {
+        height: 100vh !important; }
+      .Chooser .holder {
+        width: 100% !important;
+        overflow: auto;
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        margin: 0 auto !important;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center; }
+        .Chooser .holder .slider-item-wrapper {
+          width: 257px !important;
+          margin-bottom: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 400px; } }
+      @media only screen and (min-width: 768px) and (min-width: 1200px) {
+        .Chooser .holder .slider-item-wrapper {
+          width: 25% !important; } }
+  @media only screen and (min-width: 768px) {
+      .Chooser:hover .ActionButton {
+        z-index: 1001; }
+        .Chooser:hover .ActionButton button {
+          position: relative;
+          z-index: 1002; } }

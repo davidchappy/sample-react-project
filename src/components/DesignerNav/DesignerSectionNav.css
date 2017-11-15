@@ -1,0 +1,49 @@
+.DesignerSectionNav {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .DesignerSectionNav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 5rem;
+      width: 100%; }
+      .DesignerSectionNav h3 {
+        font-size: 1em;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        letter-spacing: 1px; }
+      .DesignerSectionNav .section-nav-buttons {
+        display: flex;
+        padding: 0 0.2rem; }
+        .DesignerSectionNav .section-nav-buttons button {
+          display: flex;
+          margin: 0;
+          align-items: center;
+          justify-content: center;
+          height: 2.2rem;
+          line-height: 2.2rem;
+          border: none;
+          padding: 0 1.2rem;
+          background-color: #809196;
+          border-radius: 0;
+          text-transform: uppercase;
+          transition: 0.2s;
+          margin-right: 3px; }
+          .DesignerSectionNav .section-nav-buttons button:hover {
+            background: #213033;
+            background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1), transparent); }
+          .DesignerSectionNav .section-nav-buttons button a {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.9em; }
+          .DesignerSectionNav .section-nav-buttons button.selected {
+            background-color: #17ABDE;
+            transform: scale(1.05, 1.05); }
+            .DesignerSectionNav .section-nav-buttons button.selected:hover {
+              background: #1db4e8; } }
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        .DesignerSectionNav .section-nav-buttons button {
+          padding: 0 0.7rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .DesignerSectionNav h3 {
+      font-size: 0.8em; } }

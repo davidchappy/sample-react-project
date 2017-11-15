@@ -1,0 +1,88 @@
+.TeamDetailsForm {
+  padding: 0 1rem 0;
+  text-align: left; }
+  .TeamDetailsForm h4 {
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-bottom: 1rem; }
+  .TeamDetailsForm .team-name {
+    margin-bottom: 1.8rem;
+    text-align: left; }
+    .TeamDetailsForm .team-name label {
+      text-align: left;
+      font-size: 0.7em;
+      font-weight: 400;
+      width: 100%;
+      color: #fff; }
+      .TeamDetailsForm .team-name label input, .TeamDetailsForm .team-name label select {
+        padding-left: 0;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 700;
+        display: block;
+        -webkit-appearance: none;
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 1px solid #fff; }
+      .TeamDetailsForm .team-name label input, .TeamDetailsForm .team-name label select {
+        color: #DBDBDB;
+        border-color: #fff; }
+        .TeamDetailsForm .team-name label input::-webkit-input-placeholder, .TeamDetailsForm .team-name label select::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: rgba(219, 219, 219, 0.3);
+          font-weight: 700; }
+        .TeamDetailsForm .team-name label input::-moz-placeholder, .TeamDetailsForm .team-name label select::-moz-placeholder {
+          /* Firefox 19+ */
+          color: rgba(219, 219, 219, 0.3);
+          font-weight: 700; }
+        .TeamDetailsForm .team-name label input:-ms-input-placeholder, .TeamDetailsForm .team-name label select:-ms-input-placeholder {
+          /* IE 10+ */
+          color: rgba(219, 219, 219, 0.3);
+          font-weight: 700; }
+        .TeamDetailsForm .team-name label input:-moz-placeholder, .TeamDetailsForm .team-name label select:-moz-placeholder {
+          /* Firefox 18- */
+          color: rgba(219, 219, 219, 0.3);
+          font-weight: 700; }
+  .TeamDetailsForm .team-colors {
+    margin-bottom: 0; }
+    .TeamDetailsForm .team-colors h4 {
+      margin-bottom: 1.3rem; }
+    .TeamDetailsForm .team-colors .ColorsTool .colors-nav {
+      margin-top: 0; }
+  @media only screen and (min-width: 768px) {
+    .TeamDetailsForm {
+      max-width: 900px;
+      margin: 0 auto; }
+      .TeamDetailsForm h4, .TeamDetailsForm .team-name label {
+        font-size: 1em;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .TeamDetailsForm .team-name {
+        padding: 0 20px;
+        max-width: 544px;
+        margin: 0 auto 2rem; }
+      .TeamDetailsForm .team-colors {
+        width: 544px;
+        margin: 0 auto;
+        padding: 0 20px; }
+        .TeamDetailsForm .team-colors .ColorPicker {
+          border: none;
+          max-width: 100%; }
+          .TeamDetailsForm .team-colors .ColorPicker .SliderWrapper {
+            height: 171.42857px; } }
+        @media only screen and (min-width: 768px) and (min-width: 992px) {
+          .TeamDetailsForm .team-colors .ColorPicker .SliderWrapper {
+            height: 288px; } }
+  @media only screen and (min-width: 768px) {
+          .TeamDetailsForm .team-colors .ColorPicker .holder {
+            width: 100% !important;
+            display: flex;
+            flex-direction: column; }
+            .TeamDetailsForm .team-colors .ColorPicker .holder .slider-item-wrapper {
+              width: 100% !important;
+              height: 50%; }
+              .TeamDetailsForm .team-colors .ColorPicker .holder .slider-item-wrapper .ColorPage {
+                height: 100%; } }

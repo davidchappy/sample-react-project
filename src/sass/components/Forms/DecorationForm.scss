@@ -1,0 +1,35 @@
+@import "../../_shared/variables";
+@import "../../_shared/mixins";
+
+.DecorationForm {
+
+  .ColorPicker {
+    // Style Color picker to fit in the Modal form.
+  }
+
+
+  &.ImageDecorationForm {
+  
+    .pure-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .form-input:first-of-type {
+        margin-bottom: 2rem;
+        label {
+          padding: 0;
+          border: 2px dashed $gray-light-text;
+          text-align: center;
+          font-size: 1.4em;
+          
+          .Dropzone {
+            padding: 2rem;
+          }
+        }
+      }
+    }
+
+  } 
+}

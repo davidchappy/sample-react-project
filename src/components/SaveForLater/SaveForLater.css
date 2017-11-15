@@ -1,0 +1,59 @@
+.SaveForLaterOverlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .SaveForLaterOverlay .Modal {
+    display: flex;
+    position: static;
+    height: 150px;
+    width: 225px; }
+  .SaveForLaterOverlay .SaveForLater {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    padding: 0; }
+    .SaveForLaterOverlay .SaveForLater form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .SaveForLaterOverlay .SaveForLater form .form-input {
+        padding: 1rem; }
+        .SaveForLaterOverlay .SaveForLater form .form-input label {
+          font-size: 0.7em;
+          text-align: center; }
+      .SaveForLaterOverlay .SaveForLater form .actions {
+        height: 40px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+        .SaveForLaterOverlay .SaveForLater form .actions .ActionButton {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%; }
+          .SaveForLaterOverlay .SaveForLater form .actions .ActionButton button.cancel {
+            width: 20%; }
+          .SaveForLaterOverlay .SaveForLater form .actions .ActionButton button.submit {
+            width: 80%; }
+  @media only screen and (min-width: 768px) {
+    .SaveForLaterOverlay .Modal {
+      height: 250px;
+      width: 450px; }
+      .SaveForLaterOverlay .Modal form {
+        padding-top: 2.5rem; }
+        .SaveForLaterOverlay .Modal form .form-input {
+          width: 80%; }
+          .SaveForLaterOverlay .Modal form .form-input label {
+            font-size: 1.1em; }
+            .SaveForLaterOverlay .Modal form .form-input label input {
+              margin-top: 15px; }
+        .SaveForLaterOverlay .Modal form .ActionButton {
+          height: 50px;
+          line-height: 50px;
+          font-size: 1.2em; } }

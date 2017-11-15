@@ -1,0 +1,112 @@
+@import "../../_shared/variables";
+@import "../../_shared/mixins";
+
+.chooser-item-wrapper {
+  width: 0;
+  // max-height: 66vh;
+  position: relative;
+  // overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  // Padding to allow for the scaling transformation
+  // padding-top: 1%;
+  // padding-bottom: 1%;
+}
+
+.ChooserItem {
+  position: relative;
+  background: transparent;
+  box-shadow: $box-shadow;
+  box-sizing: border-box;
+  margin: 0 5%;
+  height: 100%;
+  width: 90%;
+  border-radius: 5px;
+  
+  .item-top { 
+    // 2 values below ensure translated image appears above bottom section
+    z-index: 2;
+    position: relative;
+    
+    height:50%;
+    overflow: visible;
+    background-color: $gray-dark;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    h3.chooser-item-top-text {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 1em;
+      font-weight: 400;
+      color: #fff;
+    }
+    
+    img {
+      display: block;
+      margin: auto;
+      transform: translateY(10%);
+      height: 100%;
+    }
+  }
+
+  .item-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:50%;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    padding-top: 11%;
+
+    h1 {
+      font-size: 1.1em;
+      margin-bottom: 5px;
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0;
+      font-weight: 400;
+      font-size: 0.7em;
+    }
+
+    p:last-of-type {
+      margin-bottom: 1rem;
+    }
+
+    .ActionButton {
+      position: absolute;
+      bottom: 5%;
+      width: 70%;
+    }    
+  }
+
+
+  // Desktop Styles
+  @include desktop() {
+
+    .item-top { 
+      
+      img {
+        
+      }
+    }
+
+    .item-bottom {
+      z-index: 1;
+    
+      .ActionButton {
+        width: auto;
+      }
+    }
+
+    
+  }
+}

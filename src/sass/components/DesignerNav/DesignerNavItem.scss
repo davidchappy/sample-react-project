@@ -1,0 +1,69 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.DesignerNavItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $gray-light-text;
+  flex-grow: 1;
+  height: 100%;
+  font-weight: 400;
+  text-transform: uppercase;  
+  font-size: 0.7em;
+  transition: background-color 0.4s;
+  
+  &.selected {
+    background-color: transparentize(#000, 0.45);
+  }
+
+
+  // ** DESKTOP STYLES **
+  @include desktop() {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    color: #fff;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding: 1rem 1rem 1rem 1.2rem;
+    border-top: 1px solid transparentize($gray-light-text, 0.5);
+    border-bottom: 1px solid transparentize($gray-light-text, 0.5);
+    cursor: pointer;
+    
+    &:hover {
+      background-color: transparentize($gray-light-text, 0.5);
+    }
+    
+    &.selected {
+      background-color: lighten($primary, 10%);
+      
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        height: calc(100% + 2px);
+        margin-top: -1px;
+        width: 7px;
+        background-color: $primary;
+      }
+    }
+
+
+    @include media-max($xl) {
+      font-size: 0.9em;
+    }
+
+    @include media-max($lg) {
+      font-size: 0.8em;
+      padding: 0.8rem 0.2rem 0.8rem 1rem;
+    }
+
+    
+  }
+}

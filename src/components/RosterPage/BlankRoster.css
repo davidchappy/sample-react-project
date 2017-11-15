@@ -1,0 +1,23 @@
+.BlankRoster {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .BlankRoster .no-players-added {
+    margin-bottom: 2rem; }
+    .BlankRoster .no-players-added img {
+      display: inline-block;
+      margin-bottom: 1rem; }
+    .BlankRoster .no-players-added h3 {
+      color: #fff;
+      font-weight: 400; }
+  .BlankRoster .ActionButton {
+    width: 70%;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5); }
+    .BlankRoster .ActionButton .submit {
+      width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .BlankRoster .ActionButton {
+      width: 50%;
+      max-width: 560px; } }

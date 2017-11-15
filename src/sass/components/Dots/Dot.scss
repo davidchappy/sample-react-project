@@ -1,0 +1,13 @@
+@import '../../_shared/variables';
+
+.Dot {
+  height: 7px;
+  width: 7px;
+  margin-right: 5px;
+  background-color: transparentize(#fff, 0.82);
+  border-radius: 50%;
+  
+  &.selected {
+    background-color: $gray-light-text;  
+  }
+}

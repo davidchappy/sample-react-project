@@ -1,0 +1,49 @@
+.DesignerToolNav {
+  display: flex;
+  margin-top: -10px;
+  margin-bottom: 10px; }
+  .DesignerToolNav li {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 25px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 400;
+    padding: 0 3px 5px;
+    transition: border 0.5s; }
+    .DesignerToolNav li.selected {
+      border-bottom: 2px solid rgba(23, 171, 222, 0.6); }
+  @media only screen and (min-width: 768px) {
+    .DesignerToolNav {
+      margin-top: 0;
+      justify-content: center;
+      align-items: center; }
+      .DesignerToolNav li {
+        display: flex;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        height: 2.2rem;
+        line-height: 2.2rem;
+        border: none;
+        padding: 0 1.2rem;
+        background-color: #809196;
+        border-radius: 0;
+        text-transform: uppercase;
+        transition: 0.2s;
+        transition: border 0.1s; }
+        .DesignerToolNav li:hover {
+          background: #213033;
+          background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1), transparent); }
+        .DesignerToolNav li a {
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 0.9em; }
+        .DesignerToolNav li.selected {
+          background-color: #17ABDE;
+          transform: scale(1.05, 1.05); }
+          .DesignerToolNav li.selected:hover {
+            background: #1db4e8; } }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      .DesignerToolNav li {
+        padding: 0 0.7rem; } }

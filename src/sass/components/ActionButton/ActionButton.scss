@@ -1,0 +1,30 @@
+@import "../../_shared/variables";
+
+.ActionButton {
+  display: flex;
+  flex-direction: row-reverse;
+
+  .cancel.pure-button {
+    display: inline-block;
+    width: 15%;
+    background-color: $gray-medium;
+    color: #fff;
+  }
+  
+  .submit.pure-button {
+    margin: 0 auto;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    height: 35px;
+    line-height: 35px;
+    background-color: $primary;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 3px;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index:3;
+  }
+
+}

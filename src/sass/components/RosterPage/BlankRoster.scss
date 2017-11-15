@@ -1,0 +1,44 @@
+@import "../../_shared/variables";
+@import "../../_shared/mixins";
+
+.BlankRoster {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  .no-players-added {
+    margin-bottom: 2rem;
+    
+    img {
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    
+    h3 {
+      color: #fff;
+      font-weight: 400;
+    }
+  }
+  
+
+  
+  .ActionButton {
+    width: 70%;
+    box-shadow: $box-shadow;
+    
+    .submit {
+      width: 100%;
+    }
+  }
+
+
+  // Desktop Styles
+  @include desktop() {
+    .ActionButton {
+      width: 50%;
+      max-width: 560px;
+    }
+  }
+}

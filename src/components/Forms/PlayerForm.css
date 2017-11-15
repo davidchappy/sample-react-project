@@ -1,0 +1,19 @@
+.ModalOverlay.RosterOverlay {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.ModalForm.PlayerForm {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: white; }
+  .ModalForm.PlayerForm .pure-form {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 60px;
+    position: relative; }
+    .ModalForm.PlayerForm .pure-form .actions {
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    .ModalForm.PlayerForm .pure-form .form-input label input, .ModalForm.PlayerForm .pure-form .form-input label select {
+      height: 2.5em; }

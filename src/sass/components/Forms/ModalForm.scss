@@ -1,0 +1,126 @@
+@import "../../_shared/variables";
+@import "../../_shared/mixins";
+
+.ModalForm {
+  height: 100%;
+  padding: 2rem 2rem 3rem;
+
+  .pure-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+        
+    .form-input {
+      width: 100%;  
+    }
+
+    .fieldrow {
+      display: flex;
+      justify-content: space-between;
+      label {
+        width: 48%;
+      }
+    }
+
+    .ColorPicker {
+        
+      .SliderWrapper {
+        // Assues 2 rem left/right padding on main element
+        height: calc((100vw - 4rem) / 3.5);
+      }
+
+      .Dots {
+        .Dot { 
+          background-color: transparentize(#000, 0.6);
+          
+          &.selected {
+            background-color: transparentize(#000, 0.2);
+          }
+        }
+      }
+
+    }
+
+    label {
+      @include input-with-label('light');
+    }
+  }
+
+  .actions {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+    
+    .ActionButton {
+      width: 100%;
+      height: 40px;
+      
+      .submit.pure-button {
+        width: 85%;
+        height: 100%;
+        border-radius: 0;
+      }
+
+      .cancel.pure-button {
+        width: 15%;
+        height: 100%;
+        border-radius: 0;
+      }
+    }
+  }
+
+
+  // Desktop Styles
+  @include desktop() {
+    width: 300px;
+    padding: 2rem 10px 3rem;
+    
+    @include media-min($lg) {
+      width: 420px;
+      padding: 2rem 20px 3rem;
+    }
+
+    @include media-min($xl) {
+      width: 544px;
+      padding: 2rem 40px 3rem;
+    }
+
+    @include media-min($xxl) {
+      width: 700px;
+    }
+
+    .pure-form {
+  
+      .ColorPicker {
+
+        .SliderWrapper {
+          @include color-slider-height(280px);
+          
+          @include media-min($lg) {
+            @include color-slider-height(380px);
+          }
+
+          @include media-min($xl) {
+            @include color-slider-height(464px);
+          }
+
+          @include media-min($xxl) {
+            @include color-slider-height(600px);
+          }
+        }  
+
+      }
+
+    }
+
+   
+  
+
+  }
+
+}

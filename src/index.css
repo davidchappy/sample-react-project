@@ -1,0 +1,139 @@
+/* open-sans-regular */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/open-sans-v14-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("./fonts/open-sans-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("./fonts/open-sans-v14-latin-regular.woff2") format("woff2"), url("./fonts/open-sans-v14-latin-regular.woff") format("woff"), url("./fonts/open-sans-v14-latin-regular.ttf") format("truetype"), url("./fonts/open-sans-v14-latin-regular.svg#OpenSans") format("svg");
+  /* Legacy iOS */ }
+
+/* open-sans-700 */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/open-sans-v14-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("./fonts/open-sans-v14-latin-700.eot?#iefix") format("embedded-opentype"), url("./fonts/open-sans-v14-latin-700.woff2") format("woff2"), url("./fonts/open-sans-v14-latin-700.woff") format("woff"), url("./fonts/open-sans-v14-latin-700.ttf") format("truetype"), url("./fonts/open-sans-v14-latin-700.svg#OpenSans") format("svg");
+  /* Legacy iOS */ }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  padding-bottom: 60px; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+p {
+  margin-bottom: 1em; }
+
+fieldset {
+  border: 0; }
+
+.hidden-on-mobile {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .hidden-on-mobile {
+      display: flex; } }
+
+.hidden-on-desktop {
+  display: flex; }
+  @media only screen and (min-width: 768px) {
+    .hidden-on-desktop {
+      display: none; } }
+
+.ModalOverlay {
+  z-index: 1003;
+  background-color: rgba(255, 255, 255, 0.96);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw; }
+  .ModalOverlay .Modal {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto; }
+  @media only screen and (min-width: 768px) {
+    .ModalOverlay {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .ModalOverlay .Modal {
+        display: flex;
+        justify-content: center;
+        position: static;
+        height: auto;
+        width: 100%; }
+        .ModalOverlay .Modal .pure-form {
+          position: relative; }
+          .ModalOverlay .Modal .pure-form .ColorPicker {
+            overflow: auto; }
+        .ModalOverlay .Modal .pure-form .form-input:last-of-type {
+          margin-bottom: 2rem; }
+        .ModalOverlay .Modal .actions {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          position: static;
+          margin-top: 1rem; }
+          .ModalOverlay .Modal .actions .ActionButton {
+            width: 100%; } }
+
+/*** Styles added to fix the issue with zoom in on iphone ***/
+/* iPhone < 5: */
+@media screen and (device-aspect-ratio: 2 / 3) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"] {
+    font-size: 16px; } }
+
+/* iPhone 5, 5C, 5S, iPod Touch 5g */
+@media screen and (device-aspect-ratio: 40 / 71) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"] {
+    font-size: 16px; } }
+
+/* iPhone 6, iPhone 6s, iPhone 7 portrait/landscape */
+@media screen and (device-aspect-ratio: 375 / 667) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"] {
+    font-size: 16px; } }
+
+/* iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus portrait/landscape */
+@media screen and (device-aspect-ratio: 9 / 16) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"] {
+    font-size: 16px; } }

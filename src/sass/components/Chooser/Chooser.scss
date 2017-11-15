@@ -1,0 +1,116 @@
+@import "../../_shared/variables";
+@import "../../_shared/mixins";
+
+.Chooser {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  
+  .holder {
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 0;
+    height: 100%;
+    // Padding to allow for the scaling transformation
+    padding-top:3%;
+    padding-bottom: 3%;
+  }
+
+  .animate { 
+    transition: transform 0.3s ease-out; 
+  }
+
+  // .chooser-navigator {
+  //   display: none;
+  // }
+
+ 
+  // Desktop Styles
+  @include desktop() {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 25%;
+    
+    // Override inline style from js
+    &.SliderWrapper .holder {
+      height: 100vh !important;
+    }
+
+    .holder {
+      width: 100% !important;
+      overflow:auto;
+      padding-top: 15rem;
+      padding-bottom: 15rem;
+      margin: 0 auto !important;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:flex-start;
+      align-items: center;
+      
+      .slider-item-wrapper {
+        width: 257px !important;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        
+        @include media-min($xl) {
+          width: 25% !important;
+          
+        }
+      }
+    }
+    
+    &:hover {
+      .ActionButton {
+        z-index: 1001;
+        
+        button {
+          position: relative;
+          z-index: 1002;
+        }
+      }
+
+      // .chooser-navigator {
+      //   display: flex;
+      // }
+    }
+
+    // .chooser-navigator {
+    //   justify-content: center;
+    //   width: 10%;
+    //   height: 100%;
+    //   position: absolute;
+    //   top: 0;
+    //   bottom: 0;
+    //   transition: display 0.2s;
+    //   border: none;
+    //   box-shadow: none;
+    //   position: absolute;    
+    //   z-index: 3;   
+      
+    //   &.navigate-back {
+    //     left: 0;
+    //     background-image: linear-gradient(to left, transparent, transparentize(#fff, 0.7))
+    //   }
+
+    //   &.navigate-forward {
+    //     right: 0;
+    //     background-image: linear-gradient(to right, transparent, transparentize(#fff, 0.7))
+    //   }
+
+    //   .fa {
+    //     color: #fff;
+    //   } 
+    // }
+      
+  }
+}

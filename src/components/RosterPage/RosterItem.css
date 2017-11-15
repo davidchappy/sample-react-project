@@ -1,0 +1,54 @@
+.RosterItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  line-height: 1;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.42);
+  padding: 0 1rem 0 1.8rem;
+  height: 45px; }
+  .RosterItem span {
+    display: inline-block; }
+  .RosterItem .player-number {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1rem;
+    height: 100%;
+    width: 20px; }
+  .RosterItem div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: 400; }
+    .RosterItem div .player-size {
+      text-transform: uppercase;
+      font-size: 0.8em;
+      margin-bottom: 5px;
+      letter-spacing: 1px; }
+  .RosterItem::before {
+    content: '#';
+    position: absolute;
+    left: 0.5rem;
+    top: 20%;
+    font-size: 1.5em;
+    color: #555D62; }
+  .RosterItem .roster-item-actions {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: no-wrap;
+    padding-right: 5px; }
+    .RosterItem .roster-item-actions span {
+      display: inline-block;
+      margin-right: 0.5rem; }
+      .RosterItem .roster-item-actions span.edit-player {
+        padding-top: 2px; }

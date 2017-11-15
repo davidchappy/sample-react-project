@@ -1,0 +1,94 @@
+@import './_shared/variables';
+@import './_shared/mixins';
+
+// Top level layout styles
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: 
+      url('sass/assets/background-mobile.png'),
+      radial-gradient(#809196, #202325);
+  background-size: cover;
+
+  .route {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .spacer {
+    height: 10vh;
+    width: 100%;
+  }
+
+
+
+  // ** DESKTOP STYLES **
+  @include desktop {
+    padding: 0 5rem;
+    justify-content: space-around;
+    background-image: url('sass/assets/background-desktop.png'),
+                      radial-gradient(50% 109%, darken(#809196, 15%), #000000);
+                      // radial-gradient(50% 109%, #637478 52%, #202325 100%);
+
+    .route {
+      // min-width: $lg;
+      max-width: 1400px;
+      align-items: center;
+      
+      &.full-height-scrollabe {
+        .Header {
+          width: 100%;
+          padding: 2rem 5rem 0;
+          background-image: linear-gradient(to top, transparent, transparentize(#202325, 0.1));
+          height: 160px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1002;
+          
+          .desktop-header {
+            height: 100%;
+            position: relative;
+          }
+        }
+
+        .Main {
+          background-image: $bgd-gradient;
+          position: fixed;
+          width: 100%;
+          height: 150%;
+          margin-top: -25%;
+          overflow: scroll;
+        }
+
+        .Footer {
+          height: 160px;
+          background-image: linear-gradient(to bottom, transparent, transparentize(#202325, 0.1));
+        }
+      }
+
+    }
+
+    @include media-max($xxl) {
+      padding: 0 4rem;
+    }
+
+    @include media-max($xl) {
+      padding: 0 3rem;
+    }
+
+    @include media-max($lg) {
+      padding: 0 2rem;
+    }
+
+  }
+}
+

@@ -1,0 +1,34 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.PatternsDesktopItem {
+
+  // Desktop Styles
+  @include desktop() {
+    box-sizing: border-box;
+    background-color: transparentize($gray-dark, 0.5);
+    width: 47%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      width: 85%;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: transparentize($gray-dark, 0.2);
+    }
+
+    &.selected {
+      background-color: transparentize(#fff, 0.17);
+    }
+  }
+  
+
+}

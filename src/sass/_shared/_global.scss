@@ -1,0 +1,77 @@
+@import './variables';
+@import './mixins';
+
+// Global styles and utility classes
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+// html, body {
+//   overflow-x: hidden;
+//   overflow-y: scroll;
+//   height: 100%;
+//   -webkit-overflow-scrolling: touch;
+// }
+
+// html {
+//     height  : 100%;
+//     overflow: hidden;
+//     overflow-y: scroll;
+// }
+// body {
+//     height  : 100%;
+//     overflow: auto;
+//     overflow-y: scroll;
+// }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  padding-bottom: 60px; 
+}
+
+ul, li {
+  list-style: none; 
+}
+
+a {
+  text-decoration: none; 
+  color: #fff;
+}
+
+p {
+  margin-bottom: 1em; 
+}
+
+fieldset {
+  border: 0; 
+}
+
+// .button-secondary {
+//   background-color: rgb(66, 184, 221); /* this is a light blue */
+// }
+
+// .row {
+//   display: flex;
+//   flex-direction: row; 
+// }
+
+.hidden-on-mobile {
+  display: none;
+  
+  @include desktop() {
+    display: flex;
+  }
+}
+
+.hidden-on-desktop {
+  display: flex;
+  
+  @include desktop() {
+    display: none;
+  }
+}

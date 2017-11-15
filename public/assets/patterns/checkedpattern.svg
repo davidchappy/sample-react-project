@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1026px" height="1026px" viewBox="0 0 1026 1026" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>uniform_container</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M58.4882812,25.0449219 L135.546875,0.673828125 L152.148437,12.859375 L167.751953,17 L181.476562,17 L238.523438,20.0410156 C243.598831,19.6573634 247.813675,18.6436915 251.167969,17 C254.522263,15.3563085 261.045049,11.1082616 270.736328,4.25585938 L348.660156,34.734375 L338.304688,60.2734375 L332.375,79.1015625 L329.464844,94.4804687 L329.464844,102.978516 L327.302734,120.259766 L327.302734,133.923828 L329.464844,145.931641 L332.375,156.255859 L338.304688,169.347656 L348.660156,185.412109 L355.404297,194.509766 L364.019531,199.919922 L375.035156,202.804688 L383.427734,205.285156 L386.580078,207.673828 L383.427734,228.775391 L381.183594,246.517578 L378.224609,270.046875 L375.035156,290.457031 L372.169922,314.175781 L372.169922,331.320312 L369.804688,353.191406 L369.804688,411.423828 L369.804688,511.458984 L338.304687,519.109375 L300.970703,537.5625 L277.130859,549.425781 L245.292969,562.132812 L226.402344,566.5 L197.587891,569.253906 L171.341797,566.5 L152.148437,562.132812 L119.322266,553.191406 L108.886719,546.746094 L99.5097656,541.814453 L89.9277344,537.5625 L82.5683594,532.316406 L72.3496094,527.544922 L64.6289062,522.75 L52.4589844,519.109375 L41.3808594,515.292969 L26.7207031,511.458984 L20.7480469,508.734375 L20.7480469,366.189453 L20.7480469,333.546875 L18.2714844,306.441406 L15.6640625,284.963867 L10.59375,254.787109 L10.59375,244.099609 L7.38671875,231.105469 L4.73046875,223.207031 L0.00390625,205.285156 L13.3671875,197.503906 L24.2363281,188.628906 L41.3808594,182.71875 L52.4589844,169.347656 L58.4882812,156.255859 L66.6699219,139.322266 L72.3496094,120.259766 L72.3496094,102.978516 L72.3496094,86.9121094 L70.0039062,73.1484375 L66.6699219,60.2734375 L64.6289062,49.6289062 L62.4023437,38.9003906 L58.4882812,30.8164062 L58.4882812,25.0449219 Z" id="path-1"></path>
+        <path d="M38.2460937,35.703125 L114.611328,0 L114.611328,7.67578125 L117.097656,17.8515625 L122.888672,35.703125 L126.949219,44.2324219 L132.880859,54.7988281 L140.318359,65.4042969 L149.115234,75.2949219 L193.509766,108.488281 L213.78125,92.6835938 L238.111328,75.2949219 L253.884766,51.5683594 L263.101562,35.703125 L272.011719,7.67578125 L277.048828,2.80859375 L347.037109,37.7929688 L335.378906,58.2441406 L332.1875,75.2949219 L322.558594,114.207031 C323.084405,123.878834 323.753675,130.977142 324.566406,135.501953 C325.379137,140.026765 327.167549,146.6114 329.931641,155.255859 C338.211407,169.188834 345.311667,178.149121 351.232422,182.136719 C354.80161,184.540549 361.005613,189.604493 369.085938,192.009766 C372.635096,193.066245 378.811528,193.764812 387.615234,194.105469 L380.298828,239.552734 L374.367188,302.294922 C373.606891,339.511437 373.606891,366.953494 374.367188,384.621094 C375.127484,402.288693 378.098187,443.879188 383.279297,509.392578 L339.490234,517.689453 L303.998047,525.513672 L277.048828,531.376953 L238.111328,535.445312 L199.925781,535.445312 C159.830792,535.501285 129.890037,534.145165 110.103516,531.376953 C90.3169944,528.608741 58.1848329,521.280616 13.7070312,509.392578 L16.1816406,458.507812 L19.2851562,386.951172 L19.2851562,336.482422 L13.7070312,262.501953 L0,200.017578 L23.828125,194.105469 L43.6835938,177.660156 L60.2988281,155.255859 L63.2460938,120.060547 L54.3125,82.4316406 L38.2460937,35.703125 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uniform_container" transform="translate(1.000000, 1.000000)">
+            <rect id="Perimeter" stroke="#9B9B9B" x="0" y="0" width="1024" height="1024"></rect>
+            <g id="back" transform="translate(229.000000, 451.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="primary" mask="url(#mask-2)" fill="#D0021B">
+                    <g transform="translate(-798.000000, -1258.000000)">
+                        <rect id="Rectangle-Copy-179" x="1000.01268" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-90" x="501.603803" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-180" x="1501.61648" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-181" x="1252.41204" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-91" x="754.00317" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-204" x="1501.61648" y="1565.56049" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-212" x="1501.61648" y="1044.90122" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-235" x="1000.01268" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-118" x="501.603803" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-236" x="1501.61648" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-237" x="1252.41204" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-119" x="754.00317" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-244" x="1501.61648" y="1303.63374" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-91" x="627" y="913" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-103" x="499" y="1046" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-107" x="622" y="1178" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-123" x="500" y="1308" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-185" x="626" y="1439" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-209" x="501" y="1567" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-217" x="625" y="1696" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-93" x="1125" y="913" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-104" x="997" y="1046" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-108" x="1120" y="1181" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-124" x="998" y="1308" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-203" x="1124" y="1439" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-211" x="999" y="1567" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-243" x="1123" y="1696" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-92" x="878" y="913" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-105" x="750" y="1046" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-109" x="873" y="1180" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-125" x="751" y="1308" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-205" x="878" y="1440" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-213" x="752" y="1567" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-245" x="876" y="1696" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-102" x="1376" y="913" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-106" x="1248" y="1046" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-122" x="1371" y="1178" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-183" x="1249" y="1308" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-207" x="1375" y="1439" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-215" x="1250" y="1567" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-247" x="1374" y="1696" width="130.992076" height="130.963374"></rect>
+                    </g>
+                </g>
+                <g id="secondary" mask="url(#mask-2)" fill="#9B9B9B">
+                    <g transform="translate(-798.000000, -1256.000000)">
+                        <rect id="Rectangle-Copy-267" x="1000.20668" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-134" x="501.701113" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-268" x="1501.90779" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-269" x="1252.65501" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-135" x="754.149444" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-270" x="1124.83307" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-136" x="626.327504" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-272" x="1377.2814" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-137" x="878.775835" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-274" x="1000.20668" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-138" x="501.701113" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-275" x="1501.90779" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-276" x="1252.65501" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-139" x="754.149444" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-278" x="1125" y="1043" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-140" x="626" y="1043" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-280" x="1377" y="1043" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-141" x="879" y="1043" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-298" x="1000.20668" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-150" x="501.701113" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-299" x="1501.90779" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-300" x="1252.65501" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-301" x="1124.83307" y="1826.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-151" x="626.327504" y="1826.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-303" x="1377.2814" y="1826.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-152" x="878.775835" y="1826.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-305" x="1000.20668" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-153" x="501.701113" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-306" x="1501.90779" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-307" x="1252.65501" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-154" x="754.149444" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-309" x="1124.83307" y="1309.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-155" x="626.327504" y="1309.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-311" x="1377.2814" y="1309.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-156" x="878.775835" y="1308.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-325" x="1124.83307" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-163" x="626.327504" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-327" x="1377.2814" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-164" x="878.775835" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-150" x="751.701113" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="chest" transform="translate(624.000000, 461.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="primary" mask="url(#mask-4)" fill="#D0021B">
+                    <g transform="translate(-620.000000, -1273.000000)">
+                        <rect id="Rectangle-Copy-6" x="0" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-179" x="1000.01268" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-90" x="501.603803" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-45" x="252.399366" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-91" x="754.00317" y="782.974473" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-23" x="124.602219" y="917.132075" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-46" x="377.001585" y="917.132075" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-13" x="0" y="1565.56049" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-51" x="252.399366" y="1565.56049" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-26" x="124.602219" y="1699.71809" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-52" x="377.001585" y="1699.71809" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-7" x="0" y="1044.90122" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-53" x="252.399366" y="1044.90122" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-42" x="130.992076" y="1179.05882" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-54" x="383.391442" y="1179.05882" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-15" x="0" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-235" x="1000.01268" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-118" x="501.603803" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-59" x="252.399366" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-119" x="754.00317" y="1824.29301" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-8" x="0" y="1303.63374" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-61" x="252.399366" y="1303.63374" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-30" x="124.602219" y="1437.79134" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-62" x="377.001585" y="1437.79134" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-91" x="627" y="913" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-103" x="499" y="1046" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-107" x="622" y="1181" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-123" x="500" y="1308" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-185" x="626" y="1439" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-209" x="501" y="1567" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-217" x="625" y="1696" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-104" x="997" y="1046" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-124" x="998" y="1308" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-211" x="999" y="1567" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-92" x="878" y="913" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-105" x="750" y="1046" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-109" x="873" y="1181" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-125" x="751" y="1308" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-205" x="877" y="1439" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-213" x="752" y="1567" width="130.992076" height="130.963374"></rect>
+                        <rect id="Rectangle-Copy-245" x="876" y="1696" width="130.992076" height="130.963374"></rect>
+                    </g>
+                </g>
+                <g id="secondary" mask="url(#mask-4)" fill="#9B9B9B">
+                    <g transform="translate(-620.000000, -1271.000000)">
+                        <rect id="Rectangle-Copy-17" x="0" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-267" x="1000.20668" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-134" x="501.701113" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-67" x="252.448331" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-135" x="754.149444" y="1434.02917" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-33" x="124.626391" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-136" x="626.327504" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-68" x="377.074722" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-137" x="878.775835" y="1568.16453" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-9" x="0" y="913" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-274" x="1000.20668" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-138" x="501.701113" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-69" x="252.448331" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-139" x="754.149444" y="913.456243" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-34" x="124.626391" y="1047.5916" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-140" x="626" y="1043" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-70" x="377.074722" y="1047.5916" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-141" x="879" y="1043" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-19" x="0" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-298" x="1000.20668" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-150" x="501.701113" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-75" x="252.448331" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-37" x="124.626391" y="1830.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-151" x="626.327504" y="1826.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-76" x="377.074722" y="1830.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-152" x="878.775835" y="1826.04784" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-10" x="0" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-305" x="1000.20668" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-153" x="501.701113" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-77" x="252.448331" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-154" x="754.149444" y="1175.33956" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-38" x="124.626391" y="1309.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-155" x="626.327504" y="1309.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-78" x="377.074722" y="1309.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-156" x="878.775835" y="1309.47491" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-40" x="124.626391" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-163" x="626.327504" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-82" x="377.074722" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-164" x="878.775835" y="785.708285" width="131.017488" height="130.941657"></rect>
+                        <rect id="Rectangle-Copy-150" x="751.701113" y="1695.91249" width="131.017488" height="130.941657"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="sleeve_r_inner" transform="translate(22.000000, 88.000000)" fill="#D0021B">
+                <g id="primary">
+                    <ellipse id="Oval" cx="134" cy="181.5" rx="13" ry="12.5"></ellipse>
+                    <circle id="Oval-2" cx="126.5" cy="126.5" r="126.5"></circle>
+                    <polyline id="Path-2" points="92.0976562 250.355469 103.453125 260.492188 119.871094 265.882812 134.90625 265.378906 156.011719 265.378906 168.105469 257.867188 183.132812 244.59375 197.078125 237.734375 207.589844 228.042969 211.347656 220.158203"></polyline>
+                </g>
+            </g>
+            <g id="sleeve_l_inner" transform="translate(474.000000, 33.000000)" fill="#D0021B">
+                <g id="primary">
+                    <ellipse id="Oval" cx="135" cy="175.5" rx="11" ry="10.5"></ellipse>
+                    <circle id="Oval-2" cx="124" cy="124" r="124"></circle>
+                    <polyline id="Path-3" points="37 213 57.4296875 233.091797 77.9140625 244.150391 97.4101562 253.994141 113.263672 259.027344 128.183594 257.005859 144.751953 257.005859 157.46875 253.994141 172.140625 249.263672 179.757812 244.150391 193.255859 233.091797 203.347656 221.861328 206.894531 215.916016"></polyline>
+                </g>
+            </g>
+            <g id="sleeve_r_outer" transform="translate(15.000000, 368.000000)" fill="#D0021B">
+                <g id="primary">
+                    <ellipse id="Oval" cx="119" cy="183.5" rx="12" ry="12.5"></ellipse>
+                    <circle id="Oval-2" cx="125" cy="125" r="125"></circle>
+                    <polyline id="Path-2" points="18.484375 187.953125 18.484375 197.453125 27.3945312 207.550781 36.9023437 224 44.3515625 230.605469 53.5898437 240.550781 64.3554688 251.097656 76.8164062 268.707031 92.0078125 275.441406 98.578125 287.144531 109.066406 275.441406 115.855469 251.097656 128.609375 275.835938 136.261719 282.945312 157.914062 261.335938 170.007812 253.824219 185.035156 240.550781 198.980469 233.691406 209.857422 217.205078"></polyline>
+                </g>
+            </g>
+            <g id="sleeve_l_outer" transform="translate(755.000000, 10.000000)" fill="#D0021B">
+                <g id="primary">
+                    <ellipse id="Oval" cx="125" cy="181.5" rx="11" ry="11.5"></ellipse>
+                    <circle id="Oval-2" cx="125" cy="125" r="125"></circle>
+                    <polyline id="Path-4" points="13 185 23.4667969 205.853516 32.2207031 218.871094 41.2441406 226.634766 51.2050781 234.259766 65.9746094 244.126953 82.6660156 254.730469 93.9140625 263.345703 109.453125 265.494141 126.152344 268.054688 141.4375 265.494141 168.585938 254.730469 185.970703 234.259766"></polyline>
+                </g>
+            </g>
+            <g id="collar" transform="translate(20.000000, 30.000000)" fill="#9B9B9B">
+                <g id="tertiary">
+                    <polygon id="Path-5" points="0.375 5.32421875 138.238281 0.98046875 156.695312 0.98046875 283.273437 0.98046875 296.722656 3.15234375 307.179687 3.15234375 321.615234 3.15234375 332.126953 3.15234375 341.964844 5.32421875 364.039062 7.96484375 387.029297 10.5625 421.919922 10.5625 411.486328 23.3242188 418.259766 37.8066406 405.824219 34.46875 394.490234 32.0214844 387.029297 32.0214844 372.707031 27.6347656 364.039062 27.6347656 307.179687 25.5683594 301.455078 25.5683594 146.339844 25.5683594 135.984375 23.3242188 95.2246094 23.3242188 56.0703125 25.5683594 36.9765625 27.6347656 0.375 29.6933594 12.171875 16.1289062"></polygon>
+                </g>
+            </g>
+            <g id="decorations" transform="translate(705.000000, 695.000000)" font-weight="bold" font-family="AvenirNext-Bold, Avenir Next" letter-spacing="1.28571403" fill="#3C6AE2" font-size="36" opacity="0">
+                <text id="Placeholder">
+                    <tspan x="0.0285728335" y="36">Placeholder</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

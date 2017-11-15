@@ -1,0 +1,14 @@
+.DecorationForm.ImageDecorationForm .pure-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .DecorationForm.ImageDecorationForm .pure-form .form-input:first-of-type {
+    margin-bottom: 2rem; }
+    .DecorationForm.ImageDecorationForm .pure-form .form-input:first-of-type label {
+      padding: 0;
+      border: 2px dashed #DBDBDB;
+      text-align: center;
+      font-size: 1.4em; }
+      .DecorationForm.ImageDecorationForm .pure-form .form-input:first-of-type label .Dropzone {
+        padding: 2rem; }

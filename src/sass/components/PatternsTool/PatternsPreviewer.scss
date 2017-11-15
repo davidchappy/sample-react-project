@@ -1,0 +1,29 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.PatternsPreviewer {
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  
+  .holder {
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .slider-item-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    // height: 90px;
+  }
+
+  @include desktop() {
+    display: none;
+  }
+
+}

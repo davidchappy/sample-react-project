@@ -1,0 +1,69 @@
+.DecorationsListItem {
+  width: 100%;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 400;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: background-color 0.2s; }
+  .DecorationsListItem .decoration-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px; }
+  .DecorationsListItem .muted {
+    color: rgba(219, 219, 219, 0.5); }
+  .DecorationsListItem .edit-decoration {
+    padding-top: 1px;
+    padding-right: 10px;
+    height: 100%; }
+  .DecorationsListItem .delete-decoration {
+    padding-right: 5px;
+    height: 100%; }
+  .DecorationsListItem.selected {
+    background-color: rgba(255, 255, 255, 0.2); }
+  .DecorationsListItem.image {
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: column;
+    width: 23%;
+    margin-right: 5px;
+    justify-content: flex-start;
+    padding-bottom: 0;
+    border-bottom: none;
+    padding: 0; }
+    .DecorationsListItem.image.selected {
+      background-color: transparent; }
+      .DecorationsListItem.image.selected .decoration-content {
+        box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2); }
+      .DecorationsListItem.image.selected .delete-decoration {
+        display: flex; }
+    .DecorationsListItem.image:last-of-type {
+      border-right: none; }
+    .DecorationsListItem.image .decoration-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 0;
+      padding: 10%;
+      width: 98%; }
+      .DecorationsListItem.image .decoration-content img {
+        display: inline-block;
+        max-width: 100%;
+        width: 80%;
+        height: 10%; }
+    .DecorationsListItem.image .delete-decoration {
+      position: absolute;
+      top: -10%;
+      right: 0;
+      display: none;
+      justify-content: center;
+      padding-right: 0;
+      width: 5px;
+      height: 8px; }

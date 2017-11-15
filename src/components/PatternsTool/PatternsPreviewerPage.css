@@ -1,0 +1,10 @@
+.PatternsPreviewerPage {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .PatternsPreviewerPage {
+      justify-content: space-between; } }

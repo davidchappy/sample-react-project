@@ -1,0 +1,126 @@
+@import "./variables";
+
+@mixin desktop() {
+  @include media-min($md) {
+    @content;
+  }
+}
+
+@mixin media-min($width) {
+  @media only screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin media-max($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin button-desktop() {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  border: none;
+  padding: 0 1.2rem;
+  background-color: $gray-light;
+  // background-image: $button-gradient;
+  border-radius: 0;
+  text-transform: uppercase;
+  transition: 0.2s;
+  
+  &:hover {
+    background: lighten($gray-dark, 3%);
+    background-image: $button-gradient;
+  }
+
+  a {
+    color: transparentize(#fff, 0.1);
+    font-size: 0.9em;
+  }
+
+  &.selected {
+    background-color: $primary;
+    transform: scale(1.05, 1.05);
+    
+    &:hover {
+      background: lighten($primary, 3%);
+      // background-image: $button-gradient;
+    }
+  }
+
+  @include media-max($lg) {
+    padding: 0 0.7rem;
+  }
+  
+}
+
+@mixin input-with-label($scheme) {
+  text-align: left;
+  font-size: 0.7em;
+  font-weight: 400;
+  width: 100%;
+  
+  input, select {
+    padding-left: 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    -webkit-appearance: none;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+  }
+  
+  @if $scheme == 'dark' {  
+    color: #fff;
+    
+    input, select {
+      color: $gray-light-text;
+      border-color: #fff;
+      
+      @include placeholder-text(transparentize($gray-light-text, 0.7), 700);
+    }
+  } @else if $scheme == 'light' {
+    color: $gray-light;
+    font-weight: 700;
+    
+    input, select {
+      color: $gray-medium;
+      border-color: $gray-light-text;
+      
+      @include placeholder-text($primary, 700);
+    }
+  }
+}
+
+@mixin placeholder-text($color, $weight) {
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $color;
+    font-weight: $weight;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: $color;
+    font-weight: $weight;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: $color;
+    font-weight: $weight;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    color: $color;
+    font-weight: $weight;
+  }
+}
+
+// Assumes 4 rows of 7 colors
+@mixin color-slider-height($width) {
+  height: ($width / 7) * 4;
+}

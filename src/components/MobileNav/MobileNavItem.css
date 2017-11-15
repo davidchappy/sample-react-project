@@ -1,0 +1,28 @@
+.MobileNavItem {
+  display: flex;
+  height: 90%;
+  flex-basis: 50%; }
+  .MobileNavItem a.mobile-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 100%;
+    height: 100%;
+    padding: 5px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    color: #555D62;
+    background-color: transparent; }
+    .MobileNavItem a.mobile-button p {
+      margin: 0; }
+      .MobileNavItem a.mobile-button p.desc {
+        font-size: 0.8em;
+        color: rgba(255, 255, 255, 0.43); }
+      .MobileNavItem a.mobile-button p.title {
+        color: #fff; }
+    .MobileNavItem a.mobile-button.left {
+      text-align: left;
+      box-shadow: 1px 0 0 0 #555D62; }
+    .MobileNavItem a.mobile-button.right {
+      text-align: right;
+      box-shadow: -1px 0 0 0 #555D62; }

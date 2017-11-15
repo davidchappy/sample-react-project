@@ -1,0 +1,8 @@
+.Dot {
+  height: 7px;
+  width: 7px;
+  margin-right: 5px;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 50%; }
+  .Dot.selected {
+    background-color: #DBDBDB; }

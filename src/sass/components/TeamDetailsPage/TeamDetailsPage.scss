@@ -1,0 +1,60 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.TeamDetailsPage {
+
+  .TeamDetailsDisplay {
+    .Color {
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  @include media-min($sm) {
+    
+    .TeamDetailsDisplay {
+      padding: 0.5rem 6rem;
+
+      h3 {
+        font-size: 1.6em;
+      }
+
+      ul {
+
+        .Color {
+          padding: 5px;
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+  }
+
+ // Desktop Styles
+  @include desktop() {    
+    .TeamDetailsDisplay {
+      display: none;
+    }
+  
+    @include media-max($lg) {
+      .TeamDetailsForm {
+        .ColorPicker {
+          width: 300px;
+          
+          .holder {
+            .slider-item-wrapper {
+              .ColorPage {
+                height: 85.7px;
+              } 
+            }
+          }
+
+        }
+      }
+    
+    }
+
+  }
+
+}

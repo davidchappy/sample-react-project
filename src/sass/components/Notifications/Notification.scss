@@ -1,0 +1,36 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.Notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 300000;
+  height: 45px;
+  
+  text-align: center;
+  color: #fff;
+  transform: translateY(-45px);
+  animation-name: slide-down-up;
+  animation-duration: 4s; 
+  
+  &.success {
+    background-color: transparentize($green, 0.3);
+  } 
+
+  &.error {
+    background-color: transparentize($red, 0.3);
+  }
+}
+
+@keyframes slide-down-up {
+  0% { transform: translateY(-45px); }
+  10% { transform: translateY(0); }
+  90% { transform: translateY(0); }
+  100% { transform: translateY(-45px); }
+}

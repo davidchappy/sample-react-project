@@ -1,0 +1,16 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.ColorPage {
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  width:100%;
+  margin-bottom: 0;
+  
+  // DESKTOP STYLES
+  @include desktop() {
+    display: flex;
+    justify-content: flex-start;
+  }
+}

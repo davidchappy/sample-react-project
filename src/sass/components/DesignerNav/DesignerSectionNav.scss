@@ -1,0 +1,48 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.DesignerSectionNav {
+  display: none;
+
+
+  // ** DESKTOP STYLES **
+  @include desktop() {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+    width: 100%;
+    
+    h3 {
+      font-size: 1em;
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+    }
+
+    .section-nav-buttons {
+      display: flex;
+      padding: 0 0.2rem;
+
+      button {
+        @include button-desktop();
+        margin-right: 3px;
+      }
+    }
+
+    @include media-max($lg) {
+      h3 {
+        font-size: 0.8em;
+      }
+
+      .section-nav-buttons {
+          
+        
+
+      }
+    }
+  }  
+
+
+}

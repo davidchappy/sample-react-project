@@ -1,0 +1,24 @@
+.TeamDetailsPage .TeamDetailsDisplay .Color {
+  padding: 5px;
+  width: 30px;
+  height: 30px; }
+
+@media only screen and (min-width: 544px) {
+  .TeamDetailsPage .TeamDetailsDisplay {
+    padding: 0.5rem 6rem; }
+    .TeamDetailsPage .TeamDetailsDisplay h3 {
+      font-size: 1.6em; }
+    .TeamDetailsPage .TeamDetailsDisplay ul .Color {
+      padding: 5px;
+      width: 45px;
+      height: 45px; } }
+
+@media only screen and (min-width: 768px) {
+  .TeamDetailsPage .TeamDetailsDisplay {
+    display: none; } }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .TeamDetailsPage .TeamDetailsForm .ColorPicker {
+    width: 300px; }
+    .TeamDetailsPage .TeamDetailsForm .ColorPicker .holder .slider-item-wrapper .ColorPage {
+      height: 85.7px; } }

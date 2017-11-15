@@ -1,0 +1,49 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.DesignerNav {
+  z-index: 2;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 65px;
+    width: 100%;
+    height: 34px;
+    z-index: 101;
+    
+    .desktop {
+      display: none;
+    }
+  }
+
+  // ** DESKTOP STYLES **
+  @include desktop() {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    
+    ul {
+      display: flex;
+      height: auto;
+      position: static;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      
+      .desktop {
+        display: block;
+      } 
+    }
+
+    @include media-max($lg) {
+      width: 20%;
+    }
+    
+  }
+
+
+}

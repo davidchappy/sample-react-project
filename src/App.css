@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: url("sass/assets/background-mobile.png"), radial-gradient(#809196, #202325);
+  background-size: cover; }
+  .App .route {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center; }
+  .App .spacer {
+    height: 10vh;
+    width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .App {
+      padding: 0 5rem;
+      justify-content: space-around;
+      background-image: url("sass/assets/background-desktop.png"), radial-gradient(50% 109%, #5b6a6e, #000000); }
+      .App .route {
+        max-width: 1400px;
+        align-items: center; }
+        .App .route.full-height-scrollabe .Header {
+          width: 100%;
+          padding: 2rem 5rem 0;
+          background-image: linear-gradient(to top, transparent, rgba(32, 35, 37, 0.9));
+          height: 160px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1002; }
+          .App .route.full-height-scrollabe .Header .desktop-header {
+            height: 100%;
+            position: relative; }
+        .App .route.full-height-scrollabe .Main {
+          background-image: radial-gradient(circle, #809196 0%, #202325 100%);
+          position: fixed;
+          width: 100%;
+          height: 150%;
+          margin-top: -25%;
+          overflow: scroll; }
+        .App .route.full-height-scrollabe .Footer {
+          height: 160px;
+          background-image: linear-gradient(to bottom, transparent, rgba(32, 35, 37, 0.9)); } }
+  @media only screen and (min-width: 768px) and (max-width: 1580px) {
+    .App {
+      padding: 0 4rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .App {
+      padding: 0 3rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .App {
+      padding: 0 2rem; } }

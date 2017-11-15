@@ -1,0 +1,34 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.ModalOverlay.RosterOverlay {
+  background-color: transparentize(#000, 0.6);
+}
+
+.ModalForm.PlayerForm {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: transparentize(#fff, 0);
+  
+  .pure-form {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 60px;
+    position: relative;
+    
+    .actions {
+      // position: absolute;
+      width: 100%;
+      left:0;
+      right:0;
+      bottom:0;
+    }
+
+    // More vertical space for form inputs
+    .form-input {
+      label input, label select {
+        height: 2.5em;     
+      }
+    }
+  }
+}

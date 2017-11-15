@@ -1,0 +1,51 @@
+.ColorPicker {
+  margin: 0 auto 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%; }
+  .ColorPicker .scroll-hinter {
+    display: none; }
+  .ColorPicker .SliderWrapper {
+    height: calc((100vw - 2rem) / 3.5);
+    width: 100%; }
+    .ColorPicker .SliderWrapper .holder {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: row;
+      flex-wrap: wrap;
+      overflow: hidden; }
+    .ColorPicker .SliderWrapper .slider-item-wrapper {
+      display: flex;
+      flex-wrap: wrap; }
+  .ColorPicker .Dots {
+    margin-top: 10px; }
+  @media only screen and (min-width: 768px) {
+    .ColorPicker {
+      margin-bottom: 2rem;
+      border: none;
+      max-width: 100%;
+      width: 100%;
+      overflow: visible; }
+      .ColorPicker .SliderWrapper {
+        height: 125.71429px;
+        width: 100%; } }
+    @media only screen and (min-width: 768px) and (min-width: 992px) {
+      .ColorPicker .SliderWrapper {
+        height: 155.42857px; } }
+    @media only screen and (min-width: 768px) and (min-width: 1200px) {
+      .ColorPicker .SliderWrapper {
+        height: 189.71429px; } }
+    @media only screen and (min-width: 768px) and (min-width: 1580px) {
+      .ColorPicker .SliderWrapper {
+        height: 240px; } }
+  @media only screen and (min-width: 768px) {
+        .ColorPicker .SliderWrapper .holder {
+          width: 100% !important;
+          height: calc(150%);
+          display: flex;
+          flex-direction: column; }
+          .ColorPicker .SliderWrapper .holder .slider-item-wrapper {
+            width: 100% !important;
+            height: calc(100% / 3); } }

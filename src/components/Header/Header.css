@@ -1,0 +1,105 @@
+.Header {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  padding: 5px 20px 0;
+  color: #fff; }
+  .Header .mobile-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .Header .mobile-header .mobile-header-left h1 {
+      text-align: left;
+      letter-spacing: 1px;
+      font-size: 1.1em;
+      font-weight: 700;
+      line-height: 30px; }
+    .Header .mobile-header .mobile-header-right {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center; }
+      .Header .mobile-header .mobile-header-right a {
+        display: flex;
+        flex-direction: column;
+        color: #DBDBDB;
+        font-size: 0.6em;
+        text-align: right; }
+        .Header .mobile-header .mobile-header-right a span {
+          font-size: 1.5em;
+          padding-right: 0.5rem; }
+  @media only screen and (min-width: 768px) {
+    .Header {
+      font-size: 1em;
+      margin-bottom: 3rem;
+      padding-top: 2rem; }
+      .Header .desktop-header-left {
+        position: absolute;
+        left: 0; }
+        .Header .desktop-header-left button {
+          display: flex;
+          margin: 0;
+          align-items: center;
+          justify-content: center;
+          height: 2.2rem;
+          line-height: 2.2rem;
+          border: none;
+          padding: 0 1.2rem;
+          background-color: #809196;
+          border-radius: 0;
+          text-transform: uppercase;
+          transition: 0.2s;
+          background-color: #17ABDE;
+          text-transform: none; }
+          .Header .desktop-header-left button:hover {
+            background: #213033;
+            background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1), transparent); }
+          .Header .desktop-header-left button a {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.9em; }
+          .Header .desktop-header-left button.selected {
+            background-color: #17ABDE;
+            transform: scale(1.05, 1.05); }
+            .Header .desktop-header-left button.selected:hover {
+              background: #1db4e8; } }
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        .Header .desktop-header-left button {
+          padding: 0 0.7rem; } }
+  @media only screen and (min-width: 768px) {
+      .Header .desktop-header-right {
+        position: absolute;
+        right: 0;
+        display: flex; }
+        .Header .desktop-header-right button {
+          display: flex;
+          margin: 0;
+          align-items: center;
+          justify-content: center;
+          height: 2.2rem;
+          line-height: 2.2rem;
+          border: none;
+          padding: 0 1.2rem;
+          background-color: #809196;
+          border-radius: 0;
+          text-transform: uppercase;
+          transition: 0.2s;
+          text-transform: none; }
+          .Header .desktop-header-right button:hover {
+            background: #213033;
+            background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1), transparent); }
+          .Header .desktop-header-right button a {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.9em; }
+          .Header .desktop-header-right button.selected {
+            background-color: #17ABDE;
+            transform: scale(1.05, 1.05); }
+            .Header .desktop-header-right button.selected:hover {
+              background: #1db4e8; } }
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        .Header .desktop-header-right button {
+          padding: 0 0.7rem; } }
+  @media only screen and (min-width: 768px) {
+          .Header .desktop-header-right button:first-of-type {
+            margin-right: 1rem; }
+          .Header .desktop-header-right button:last-of-type {
+            background-color: #17ABDE; } }

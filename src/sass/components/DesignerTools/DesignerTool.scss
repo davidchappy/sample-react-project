@@ -1,0 +1,124 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.DesignerTool {
+  display: none;
+  max-height: 63px;
+  
+  &.selected {
+    display: block;
+  }
+
+  h4 {
+    color: transparentize(#fff, 0.30);
+    font-size: 0.7em;
+  }
+
+  .tool-header {
+    position: relative;
+    height: 63px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.5rem;
+    
+    .tool-preview {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    
+    .colors-preview {      
+      .Color {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        padding: 3px;
+        border: 1px solid transparentize($gray-light-text, 0.4);
+        margin-right: 5px;
+      } 
+    }
+
+    .decorations-preview {
+      color: #fff;
+      font-size: 0.8em;
+    }
+
+    .patterns-preview {
+      position: relative;
+      height: 100%;
+      color: $gray-light-text;
+      font-weight: 400;
+      font-size: 0.7em;
+
+      img {
+        box-shadow: 0 0 0 1px transparentize($gray-light-text, 0.5); 
+        border-radius: 3px;
+        padding: 2px;
+        display: inline-block;
+        max-width: 37px;
+        max-height: 45px;
+        height: 28px;
+        width: 23px;
+        margin-right: 10px;  
+      }
+      
+    }
+  }
+  
+  .tool-arrow {
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -5px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg);
+  }
+
+  &.expanded {
+    max-height: 500px;
+    
+    .tool-preview {
+      display: none;
+    }
+
+    .tool-arrow {
+      transform: rotate(135deg);
+    }
+
+    .tool {
+      transform: scaleY(1);
+    }
+  }
+
+  .tool {
+    transform: scaleY(0);
+    padding: 0 1rem 1.2rem;
+  }
+
+
+
+  // Desktop Styles
+  @include desktop() {
+    max-height: 100%;
+    
+    .tool-header {
+      display: none;
+    }
+
+    .tool {
+      padding: 0;
+      transform: scaleY(1);
+    }
+    
+  }
+}

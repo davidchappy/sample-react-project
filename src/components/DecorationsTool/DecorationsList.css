@@ -1,0 +1,15 @@
+.DecorationsList {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  .DecorationsList.hasImages {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  @media only screen and (min-width: 768px) {
+    .DecorationsList {
+      margin-bottom: 1rem;
+      padding: 0; } }

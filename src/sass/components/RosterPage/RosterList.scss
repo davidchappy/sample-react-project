@@ -1,0 +1,51 @@
+@import "../../_shared/variables";
+@import "../../_shared/mixins";
+
+.RosterList {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // z-index: 1;
+  
+  ul {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: -30vh;
+    height: 140vh;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    // margin-top: -15rem;
+    width: 94%;
+  }
+
+  .ActionButton {
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    z-index: 102;
+    
+    button.pure-button {
+      width: 60%;
+      box-shadow: $box-shadow;
+    }
+  }
+
+
+  // Desktop Styles
+  @include desktop() {
+
+    ul {
+      position: static;
+    }
+
+    .ActionButton {
+      margin-top: 1rem;
+      position: static;
+      width: 80%;
+    }
+
+  }
+}

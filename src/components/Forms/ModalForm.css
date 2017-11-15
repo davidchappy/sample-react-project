@@ -1,0 +1,105 @@
+.ModalForm {
+  height: 100%;
+  padding: 2rem 2rem 3rem; }
+  .ModalForm .pure-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%; }
+    .ModalForm .pure-form .form-input {
+      width: 100%; }
+    .ModalForm .pure-form .fieldrow {
+      display: flex;
+      justify-content: space-between; }
+      .ModalForm .pure-form .fieldrow label {
+        width: 48%; }
+    .ModalForm .pure-form .ColorPicker .SliderWrapper {
+      height: calc((100vw - 4rem) / 3.5); }
+    .ModalForm .pure-form .ColorPicker .Dots .Dot {
+      background-color: rgba(0, 0, 0, 0.4); }
+      .ModalForm .pure-form .ColorPicker .Dots .Dot.selected {
+        background-color: rgba(0, 0, 0, 0.8); }
+    .ModalForm .pure-form label {
+      text-align: left;
+      font-size: 0.7em;
+      font-weight: 400;
+      width: 100%;
+      color: #809196;
+      font-weight: 700; }
+      .ModalForm .pure-form label input, .ModalForm .pure-form label select {
+        padding-left: 0;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 700;
+        display: block;
+        -webkit-appearance: none;
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 1px solid #fff; }
+      .ModalForm .pure-form label input, .ModalForm .pure-form label select {
+        color: #555D62;
+        border-color: #DBDBDB; }
+        .ModalForm .pure-form label input::-webkit-input-placeholder, .ModalForm .pure-form label select::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: #17ABDE;
+          font-weight: 700; }
+        .ModalForm .pure-form label input::-moz-placeholder, .ModalForm .pure-form label select::-moz-placeholder {
+          /* Firefox 19+ */
+          color: #17ABDE;
+          font-weight: 700; }
+        .ModalForm .pure-form label input:-ms-input-placeholder, .ModalForm .pure-form label select:-ms-input-placeholder {
+          /* IE 10+ */
+          color: #17ABDE;
+          font-weight: 700; }
+        .ModalForm .pure-form label input:-moz-placeholder, .ModalForm .pure-form label select:-moz-placeholder {
+          /* Firefox 18- */
+          color: #17ABDE;
+          font-weight: 700; }
+  .ModalForm .actions {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1002; }
+    .ModalForm .actions .ActionButton {
+      width: 100%;
+      height: 40px; }
+      .ModalForm .actions .ActionButton .submit.pure-button {
+        width: 85%;
+        height: 100%;
+        border-radius: 0; }
+      .ModalForm .actions .ActionButton .cancel.pure-button {
+        width: 15%;
+        height: 100%;
+        border-radius: 0; }
+  @media only screen and (min-width: 768px) {
+    .ModalForm {
+      width: 300px;
+      padding: 2rem 10px 3rem; } }
+  @media only screen and (min-width: 768px) and (min-width: 992px) {
+    .ModalForm {
+      width: 420px;
+      padding: 2rem 20px 3rem; } }
+  @media only screen and (min-width: 768px) and (min-width: 1200px) {
+    .ModalForm {
+      width: 544px;
+      padding: 2rem 40px 3rem; } }
+  @media only screen and (min-width: 768px) and (min-width: 1580px) {
+    .ModalForm {
+      width: 700px; } }
+  @media only screen and (min-width: 768px) {
+      .ModalForm .pure-form .ColorPicker .SliderWrapper {
+        height: 160px; } }
+    @media only screen and (min-width: 768px) and (min-width: 992px) {
+      .ModalForm .pure-form .ColorPicker .SliderWrapper {
+        height: 217.14286px; } }
+    @media only screen and (min-width: 768px) and (min-width: 1200px) {
+      .ModalForm .pure-form .ColorPicker .SliderWrapper {
+        height: 265.14286px; } }
+    @media only screen and (min-width: 768px) and (min-width: 1580px) {
+      .ModalForm .pure-form .ColorPicker .SliderWrapper {
+        height: 342.85714px; } }

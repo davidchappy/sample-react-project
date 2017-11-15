@@ -1,0 +1,101 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.SaveForLaterOverlay{
+  background-color: transparentize(#000, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  .Modal {
+    display: flex;
+    position: static;
+    height: 150px;
+    width: 225px;
+  }
+
+  .SaveForLater {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    padding: 0;
+    
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+      .form-input {
+        padding: 1rem;
+        
+        label {
+          font-size: 0.7em;
+          text-align: center;
+        }
+
+      }
+      
+      .actions {
+        height: 40px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        .ActionButton {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          
+          button.cancel {
+            width: 20%;
+          }
+
+          button.submit {
+            width: 80%;
+          }
+        }
+      } 
+    }
+  }
+
+  
+
+  // Desktop styles
+  @include desktop() {
+    .Modal {
+      height: 250px;
+      width: 450px;
+      
+      form {
+        padding-top: 2.5rem;
+
+        .form-input {
+          width: 80%;
+          
+          label {
+            font-size: 1.1em;
+            
+            input {
+              margin-top: 15px;
+            }
+          }
+        }
+
+        .ActionButton {
+          height: 50px;
+          line-height: 50px;
+          font-size: 1.2em;
+        }
+      }
+      
+
+    }
+  }
+}
+

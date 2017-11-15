@@ -1,0 +1,30 @@
+.RosterList {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .RosterList ul {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: -30vh;
+    height: 140vh;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    width: 94%; }
+  .RosterList .ActionButton {
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    z-index: 102; }
+    .RosterList .ActionButton button.pure-button {
+      width: 60%;
+      box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5); }
+  @media only screen and (min-width: 768px) {
+    .RosterList ul {
+      position: static; }
+    .RosterList .ActionButton {
+      margin-top: 1rem;
+      position: static;
+      width: 80%; } }

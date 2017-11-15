@@ -1,0 +1,29 @@
+@import '../../_shared/variables';
+
+.DecorationsOverlay.ModalOverlay {
+  
+}
+
+.DecorationsTool {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+  &.tool {
+    padding-bottom: 25px;
+  }
+
+  .ActionButton {
+    width: 70%;
+    margin: 0 auto;
+    
+    button.pure-button {
+      font-size: 0.9em;
+      width: 100%;
+    }
+  }
+
+  .Dots {
+    margin-bottom: 0.8rem;
+  }
+}

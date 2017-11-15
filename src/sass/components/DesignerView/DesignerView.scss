@@ -1,0 +1,85 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+#uniformSvg {
+  height: 0 !important;
+  width: 0 !important;
+  
+  #decorations{
+    text-align: center;
+  }
+}
+
+.DesignerView {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 0;
+  
+  .viewer-element {
+    margin-top: -12%;
+    height:100%;
+    width: 100%;
+    
+    canvas {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 2rem;
+      
+      // border: 2px solid $primary;    
+    }
+
+    @include desktop() {
+      position: absolute;
+      top: 0;
+      left: 20%;
+      height: 600px;
+      margin-top: 0;
+      width: calc(80% - 220px);     
+
+      @include media-min($lg) {
+        width: calc(80% - 272px);     
+      }
+
+      @include media-min($xl) {
+        width: calc(80% - 332px);     
+      }
+      
+      @include media-min($xxl) {
+        width: calc(80% - 420px);     
+      }
+    
+    }
+
+  }
+
+    @include desktop() {
+      .viewer-element {
+        position: absolute;
+        top: 0;
+        left: 20%;
+        height: 600px;
+        width: calc(80% - 220px);     
+
+        @include media-min($lg) {
+          width: calc(80% - 272px);     
+        }
+
+        @include media-min($xl) {
+          width: calc(80% - 332px);     
+        }
+        
+        @include media-min($xxl) {
+          width: calc(80% - 420px);     
+        }
+      }
+    
+    }
+}
+
+

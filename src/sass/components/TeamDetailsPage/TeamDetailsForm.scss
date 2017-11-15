@@ -1,0 +1,94 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.TeamDetailsForm {
+  padding: 0 1rem 0;
+  text-align: left;
+  
+  h4 {
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  .team-name {
+    margin-bottom: 1.8rem;
+    text-align: left;
+    
+    label {
+      @include input-with-label('dark');
+    }
+  }
+
+  .team-colors {
+    margin-bottom: 0;    
+    
+    h4 {
+      margin-bottom: 1.3rem;
+    }
+
+    .ColorsTool {
+    
+      .colors-nav {
+        margin-top: 0;
+      }
+
+    }
+  }
+
+ // Desktop Styles
+  @include desktop() {
+    max-width: 900px;
+    margin: 0 auto;
+    
+    h4, .team-name label {
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .team-name {
+      padding: 0 20px;
+      max-width: 544px;
+      margin: 0 auto 2rem;
+  
+    }
+
+    .team-colors {
+      width: 544px;
+      margin: 0 auto;
+      padding: 0 20px;
+      
+      .ColorPicker {
+        border: none;
+        max-width: 100%;
+        
+        .SliderWrapper {
+          @include color-slider-height(300px);
+          
+          @include media-min($lg) {
+            @include color-slider-height(504px);
+          }
+        }
+        
+        .holder {
+          width: 100% !important;
+          display: flex;
+          flex-direction: column;
+          
+          .slider-item-wrapper {
+            width: 100% !important;
+            height: 50%;
+            
+            .ColorPage {
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,43 @@
+.Roster.route .Header {
+  background-image: linear-gradient(to top, transparent, rgba(32, 35, 37, 0.9));
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1002; }
+
+.Roster.route .Main {
+  background-image: radial-gradient(circle, #809196 0%, #202325 100%);
+  height: 100%; }
+
+.Roster.route .Footer {
+  height: 25vh;
+  background-image: linear-gradient(to bottom, transparent, rgba(32, 35, 37, 0.9)); }
+  .Roster.route .Footer .MobileNav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+
+.RosterPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+  @media only screen and (min-width: 768px) {
+    .RosterPage {
+      max-width: 900px;
+      width: 60%;
+      position: relative;
+      margin: 0 auto;
+      padding-top: 25%;
+      padding-bottom: 15rem; }
+      .RosterPage .RosterList {
+        height: 100vh;
+        width: 100%;
+        margin: 0 auto; }
+      .RosterPage .ActionButton {
+        position: fixed;
+        bottom: 160px; } }

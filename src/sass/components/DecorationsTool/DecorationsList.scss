@@ -1,0 +1,22 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.DecorationsList {
+  width:100%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+  &.hasImages {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  @include desktop() {
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+}

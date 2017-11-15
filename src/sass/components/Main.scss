@@ -1,0 +1,35 @@
+@import '../_shared/variables';
+@import '../_shared/mixins';
+
+// Wrapper element for main section of page
+.Main {
+  // This causes scrolling when screens are too short; 
+  //   need to revisit for better responsive support
+  overflow-y: auto;
+  width: 100%;
+  // Total height - 10% header - 54px footer - 75px iOS toolbar
+  // height: calc(90% - 54px - 75px);
+  height: 100%;
+  // Account for footer and overflowed content
+  margin-bottom: 150px; 
+  
+  @media screen and (min-width: $sm) {
+    padding-top: 80px;
+  }
+  
+  @media screen and (min-width: $md) {
+    padding-top: 0;
+  }  
+}
+
+.Sports .Main,
+.ChooseTop .Main,
+.ChooseBottom .Main {
+  padding-bottom: 15px;
+  
+  
+  @include desktop() {
+    padding-top: 45px;
+    padding-bottom: 0;
+  }
+}

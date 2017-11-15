@@ -1,0 +1,14 @@
+.DecorationsTool {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; }
+  .DecorationsTool.tool {
+    padding-bottom: 25px; }
+  .DecorationsTool .ActionButton {
+    width: 70%;
+    margin: 0 auto; }
+    .DecorationsTool .ActionButton button.pure-button {
+      font-size: 0.9em;
+      width: 100%; }
+  .DecorationsTool .Dots {
+    margin-bottom: 0.8rem; }

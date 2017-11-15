@@ -1,0 +1,36 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.DesignerTools {
+  position: fixed;
+  // 65px (mobile footer + space) + 34px (tools nav) + 2px space
+  bottom: 101px;
+  width: 100%;
+  // Contracted height
+  background-color: transparentize(#000, 0.65);
+  text-align: left;
+  
+
+   // ** DESKTOP STYLES **
+  @include desktop() {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 220px;
+    background-color: transparent;
+    
+    @include media-min($lg) {
+      width: 272px;
+    }
+
+    @include media-min($xl) {
+      width: 332px;
+    }
+
+    @include media-min($xxl) {
+      width: 420px;
+    }
+
+  }  
+}

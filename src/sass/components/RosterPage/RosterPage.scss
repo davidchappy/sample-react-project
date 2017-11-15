@@ -1,0 +1,64 @@
+@import "../../_shared/variables";
+@import "../../_shared/mixins";
+
+.Roster.route {
+    .Header {
+      background-image: linear-gradient(to top, transparent, transparentize(#202325, 0.1));
+      height: 10vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1002;
+    }
+
+    .Main {
+      background-image: $bgd-gradient;
+      height: 100%;
+    }
+
+    .Footer {
+      height: 25vh;
+      background-image: linear-gradient(to bottom, transparent, transparentize(#202325, 0.1));
+      
+      .MobileNav {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+}
+
+.RosterPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  // Desktop Styles
+  @include desktop() {
+    max-width: 900px;
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 25%;
+    padding-bottom: 15rem;
+    
+    .RosterList {
+      // overflow-y: scroll;
+      height: 100vh;
+      width: 100%;
+      // overflow: auto;
+
+      margin: 0 auto;
+    }
+    
+    .ActionButton {
+      position: fixed;
+      bottom: 160px;
+    }
+  }
+
+}

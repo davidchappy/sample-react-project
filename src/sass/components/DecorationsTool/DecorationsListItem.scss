@@ -1,0 +1,102 @@
+@import '../../_shared/variables';
+
+.DecorationsListItem {
+  width: 100%;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 400;
+  padding: 0.5rem;
+  // margin-bottom: 0.5rem;
+  border-bottom: 1px solid transparentize(#fff, 0.8);
+  transition: background-color $transition;
+  
+  .decoration-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+  .muted {
+    color: transparentize($gray-light-text, 0.5);
+  }  
+  
+  .edit-decoration {
+    padding-top: 1px;
+    padding-right: 10px;
+    height: 100%;
+  }
+  
+  .delete-decoration {
+    padding-right: 5px;
+    height: 100%;
+  }
+
+  &.selected {
+    background-color: transparentize(#fff, 0.8);
+  }
+
+  // Image Decorations
+  &.image {
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: column;
+    width: 23%;
+    margin-right: 5px;
+    justify-content: flex-start;
+    padding-bottom: 0;
+    border-bottom: none;
+    padding: 0;
+    
+    &.selected {
+      background-color: transparent;
+
+      .decoration-content {
+        box-shadow: 0 0 0 1px transparentize(#fff, 0.8);
+      }
+      
+      .delete-decoration {
+        display: flex;
+      }
+    }
+    
+    &:last-of-type {
+      border-right: none;
+    }
+
+    .decoration-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding-right: 0;
+      padding: 10%;
+      width: 98%;
+      
+      img {
+        display: inline-block;
+        max-width: 100%;
+        width: 80%;
+        height: 10%;      
+      }
+      
+    }
+
+    .delete-decoration {
+      position: absolute;
+      top: -10%;
+      right: 0;
+      display: none;
+      justify-content: center;
+      padding-right: 0;
+      width: 5px;
+      height: 8px;
+    }
+  }
+}

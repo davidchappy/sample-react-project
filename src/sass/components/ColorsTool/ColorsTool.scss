@@ -1,0 +1,29 @@
+@import '../../_shared/variables';
+
+.ColorsTool {
+  box-sizing: border-box;
+
+  .colors-nav {
+    display: flex;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    
+    li {
+      box-sizing: border-box;
+      display: inline-block;
+      height: 25px;
+      margin-right: 10px;    
+      color: #fff;
+      font-size: 0.7em;
+      font-weight: 400;
+      padding: 0 3px 5px;
+      transition: border 0.5s;
+      
+      &.selected {
+        border-bottom: 2px solid transparentize($primary, 0.4);
+      }
+    }
+    
+  }
+
+}

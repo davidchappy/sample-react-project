@@ -1,0 +1,31 @@
+.DesignerNav {
+  z-index: 2; }
+  .DesignerNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 65px;
+    width: 100%;
+    height: 34px;
+    z-index: 101; }
+    .DesignerNav ul .desktop {
+      display: none; }
+  @media only screen and (min-width: 768px) {
+    .DesignerNav {
+      height: 100%;
+      width: 20%;
+      position: absolute;
+      left: 0; }
+      .DesignerNav ul {
+        display: flex;
+        height: auto;
+        position: static;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start; }
+        .DesignerNav ul .desktop {
+          display: block; } }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .DesignerNav {
+      width: 20%; } }

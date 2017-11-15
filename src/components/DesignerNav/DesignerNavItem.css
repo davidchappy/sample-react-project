@@ -1,0 +1,48 @@
+.DesignerNavItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DBDBDB;
+  flex-grow: 1;
+  height: 100%;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  transition: background-color 0.4s; }
+  .DesignerNavItem.selected {
+    background-color: rgba(0, 0, 0, 0.55); }
+  @media only screen and (min-width: 768px) {
+    .DesignerNavItem {
+      position: relative;
+      width: 100%;
+      text-align: left;
+      justify-content: flex-start;
+      color: #fff;
+      font-size: 1.3em;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      padding: 1rem 1rem 1rem 1.2rem;
+      border-top: 1px solid rgba(219, 219, 219, 0.5);
+      border-bottom: 1px solid rgba(219, 219, 219, 0.5);
+      cursor: pointer; }
+      .DesignerNavItem:hover {
+        background-color: rgba(219, 219, 219, 0.5); }
+      .DesignerNavItem.selected {
+        background-color: #3dbeeb; }
+        .DesignerNavItem.selected::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          height: calc(100% + 2px);
+          margin-top: -1px;
+          width: 7px;
+          background-color: #17ABDE; } }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .DesignerNavItem {
+      font-size: 0.9em; } }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .DesignerNavItem {
+      font-size: 0.8em;
+      padding: 0.8rem 0.2rem 0.8rem 1rem; } }

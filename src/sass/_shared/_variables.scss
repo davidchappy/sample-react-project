@@ -1,0 +1,22 @@
+// colors
+$primary: #17ABDE;
+$green: #0EB559;
+$red: #d9534f;
+$gray-light: #809196;
+$gray-light-text: #DBDBDB;
+$gray-medium: #555D62;
+$gray-dark: #1B272A;
+$gray-medium-dark: #3E3E3E;
+$gray-black: #292929;
+
+// breakpoints
+$sm: 544px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1580px;
+
+$transition: 0.2s;
+$bgd-gradient: radial-gradient(circle, #809196 0%, #202325 100%);
+$button-gradient: linear-gradient(to bottom, transparentize(#000, 1), transparentize(#000, 0.9), transparentize(#000, 1));
+$box-shadow: 2px 2px 4px 0 transparentize(black, 0.5);

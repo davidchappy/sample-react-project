@@ -1,0 +1,80 @@
+.DesignerTool {
+  display: none;
+  max-height: 63px; }
+  .DesignerTool.selected {
+    display: block; }
+  .DesignerTool h4 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.7em; }
+  .DesignerTool .tool-header {
+    position: relative;
+    height: 63px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.5rem; }
+    .DesignerTool .tool-header .tool-preview {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem; }
+    .DesignerTool .tool-header .colors-preview .Color {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25px;
+      height: 25px;
+      padding: 3px;
+      border: 1px solid rgba(219, 219, 219, 0.6);
+      margin-right: 5px; }
+    .DesignerTool .tool-header .decorations-preview {
+      color: #fff;
+      font-size: 0.8em; }
+    .DesignerTool .tool-header .patterns-preview {
+      position: relative;
+      height: 100%;
+      color: #DBDBDB;
+      font-weight: 400;
+      font-size: 0.7em; }
+      .DesignerTool .tool-header .patterns-preview img {
+        box-shadow: 0 0 0 1px rgba(219, 219, 219, 0.5);
+        border-radius: 3px;
+        padding: 2px;
+        display: inline-block;
+        max-width: 37px;
+        max-height: 45px;
+        height: 28px;
+        width: 23px;
+        margin-right: 10px; }
+  .DesignerTool .tool-arrow {
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -5px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg); }
+  .DesignerTool.expanded {
+    max-height: 500px; }
+    .DesignerTool.expanded .tool-preview {
+      display: none; }
+    .DesignerTool.expanded .tool-arrow {
+      transform: rotate(135deg); }
+    .DesignerTool.expanded .tool {
+      transform: scaleY(1); }
+  .DesignerTool .tool {
+    transform: scaleY(0);
+    padding: 0 1rem 1.2rem; }
+  @media only screen and (min-width: 768px) {
+    .DesignerTool {
+      max-height: 100%; }
+      .DesignerTool .tool-header {
+        display: none; }
+      .DesignerTool .tool {
+        padding: 0;
+        transform: scaleY(1); } }

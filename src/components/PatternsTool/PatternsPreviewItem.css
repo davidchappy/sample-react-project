@@ -1,0 +1,16 @@
+.PatternsPreviewItem {
+  width: 31%;
+  height: calc(30vw);
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 2.2vw;
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3%; }
+  .PatternsPreviewItem.selected {
+    background-color: rgba(255, 255, 255, 0.83);
+    border: 2px solid #fff; }
+  .PatternsPreviewItem img {
+    max-width: 100%; }

@@ -1,0 +1,7 @@
+.PatternsTool {
+  box-sizing: border-box; }
+  .PatternsTool.tool {
+    padding-bottom: 25px; }
+  @media only screen and (min-width: 768px) {
+    .PatternsTool .Dots {
+      display: none; } }

@@ -1,0 +1,40 @@
+.TeamDetailsDisplay {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #809196;
+  padding: 5px 1rem 0; }
+  .TeamDetailsDisplay h3 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .TeamDetailsDisplay ul {
+    display: flex;
+    justify-content: center; }
+  .TeamDetailsDisplay .edit-team-details {
+    display: none; }
+  @media only screen and (min-width: 768px) {
+    .TeamDetailsDisplay {
+      border-top: none;
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 2rem; }
+      .TeamDetailsDisplay h3 {
+        margin-right: 1rem; }
+      .TeamDetailsDisplay ul {
+        margin-right: 1rem; }
+        .TeamDetailsDisplay ul .Color {
+          padding: 5px;
+          height: 40px;
+          width: 40px; }
+      .TeamDetailsDisplay .edit-team-details {
+        display: flex; }
+        .TeamDetailsDisplay .edit-team-details a {
+          color: #DBDBDB;
+          font-size: 0.8em; } }

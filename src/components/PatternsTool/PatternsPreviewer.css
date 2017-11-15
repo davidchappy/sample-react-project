@@ -1,0 +1,18 @@
+.PatternsPreviewer {
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%; }
+  .PatternsPreviewer .holder {
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden; }
+  .PatternsPreviewer .slider-item-wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  @media only screen and (min-width: 768px) {
+    .PatternsPreviewer {
+      display: none; } }

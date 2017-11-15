@@ -1,0 +1,64 @@
+@import '../../_shared/variables';
+@import '../../_shared/mixins';
+
+.TeamDetailsDisplay {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid $gray-light;
+  padding: 5px 1rem 0;
+  
+  h3 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .edit-team-details {
+    display: none;
+  }
+
+
+  // Desktop Styles
+  @include desktop() {
+    border-top: none;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+    
+    h3 {
+      margin-right: 1rem;
+    }
+
+    ul {
+      margin-right: 1rem;
+      
+      .Color {
+        padding: 5px;
+        height: 40px;
+        width: 40px;
+      }
+    }
+    
+    .edit-team-details {
+      display: flex;
+      
+      a {
+        color: $gray-light-text;
+        font-size: 0.8em;
+      }
+
+    }
+  }
+}
